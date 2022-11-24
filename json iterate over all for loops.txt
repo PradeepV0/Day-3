@@ -1,0 +1,44 @@
+////For
+var obj = {
+    name: "pradeep V",
+    age: 23,
+    gender: "male",
+    attendance : ["day1","day2","day3","day3"]
+}
+for(var i =0;i<obj.attendance.length;i++){
+    console.log(obj.attendance[i]);
+}
+///For in
+var obj = {
+    name: "pradeep V",
+    age: 23,
+    gender: "male",
+    attendance : ["day1","day2","day3","day3"]
+}
+for(var i in obj.attendance){
+    console.log(obj.attendance[i]);
+}
+///For of
+
+var obj = {
+    name: "pradeep V",
+    age: 23,
+    gender: "male",
+    attendance : ["day","week","month","years"]
+}
+for(let i of obj.attendance){
+    console.log(i);
+}
+
+////ForEach
+var obj = {
+    name: "pradeep V",
+    age: 23,
+    gender: "male",
+    attendance : ["day","week","month","years"]
+}
+obj.attendance.forEach(function(i){
+    console.log(i);
+});
+
+
